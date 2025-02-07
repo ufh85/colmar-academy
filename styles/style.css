@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../resources/fonts/Roboto-VariableFont.ttf") format("truetype");       
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+
+    font-family: "Roboto";
+    font-size: 2rem;
+}
+
+.header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-header img {
+
+}
+
+.left-header span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.colmar-bold {
+    font-weight: 700;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li{
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 1rem;
+}
