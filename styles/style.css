@@ -7,6 +7,7 @@
     --emphasis: #4A4A4A;
     --regular: #767676;
     --background: #D8D8D8;
+    --info-link: #0000EE;
 }
 
 html {
@@ -23,6 +24,10 @@ h1 {
     font-weight: 900;
     color: var(--emphasis);
     margin: 16px 0;
+}
+
+h3 {
+    margin: 0;
 }
 
 .header {
@@ -89,4 +94,47 @@ h1 {
     background-color: var(--emphasis);
     color: var(--background);
     border: 1px solid var(--regular);
+}
+
+.info-panel {
+    padding: 32px 24px;
+    display: flex;
+}
+
+.info-panel img {
+    width: 100%;
+}
+
+.info-left {
+    width: 60%;    
+}
+
+.info-right {
+    width: 40%;
+}
+
+.info-item {
+    display: flex;
+    padding: 16px 16px;
+}
+
+.info-item img{
+    width: 35%;
+    height: auto;
+}
+
+.info-item-textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.info-item-paragraph {
+    margin: 8px 0;
+}
+
+.info-item-link {
+    margin: 0;
+    color: var(--info-link);
 }
