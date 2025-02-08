@@ -6,6 +6,7 @@
 :root {
     --emphasis: #4A4A4A;
     --regular: #767676;
+    --background: #D8D8D8;
 }
 
 html {
@@ -16,6 +17,12 @@ body {
     font-family: "Roboto";
     font-size: 2rem;
     color: var(--regular);
+}
+
+h1 {
+    font-weight: 700;
+    color: var(--emphasis);
+    margin: 16px 0;
 }
 
 .header {
@@ -30,10 +37,6 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-
-.left-header img {
-
 }
 
 .left-header span {
@@ -62,4 +65,29 @@ body {
     text-decoration: none;
     font-size: 1rem;
     color: var(--emphasis);
+}
+
+.banner {
+    background-color: var(--background);
+    padding: 32px 24px;
+    display: flex;
+}
+
+.banner img {
+    width: 60%;
+}
+
+.banner-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+.banner-button {
+    margin-top: 16px;
+    padding: 8px 0;
+    background-color: var(--emphasis);
+    color: var(--background);
+    border: 1px solid var(--regular);
 }
