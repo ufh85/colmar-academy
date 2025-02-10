@@ -27,6 +27,11 @@ h1 {
     margin: 16px 0;
 }
 
+h2{
+    text-align: center;
+    margin: 32px 0 0;
+}
+
 h3 {
     margin: 0;
 }
@@ -113,7 +118,7 @@ img {
     display: flex;
 }
 
-.select-panel img {
+.select-panel img, .select-panel video {
     width: 100%;
 }
 
@@ -124,8 +129,18 @@ img {
     border-color: var(--background);  
 }
 
+.select-no-border-box {
+    width: 60%;
+}
+
 .select-left {
     padding: 32px 24px;
+}
+
+.info-header {
+    text-align: left;
+    margin: 32px 0 24px;
+
 }
 
 .select-right {
@@ -133,10 +148,14 @@ img {
     padding-top: 16px;
 }
 
+.extra-offset {
+    padding-top: 32px;
+}
+
 .select-item {
     display: flex;
     padding: 16px 16px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .select-item img{
@@ -203,6 +222,15 @@ img {
 }
 
 .card-text p {
+    margin: 0;
+}
+
+.thesis-header {
+    margin: 24px 0 8px;
+    text-align: left;
+}
+
+.thesis-paragraph {
     margin: 0;
 }
 
