@@ -10,6 +10,7 @@
     --info-link: #0000EE;
 }
 
+/* Element rules */
 html {
     font-size: 16px;
 }
@@ -30,6 +31,18 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    text-transform: uppercase;
+    color: var(--regular);
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+img {
+    display: block;
+}
+
+/* Class rules */
 .header {
     height: 64px;
     display: flex;
@@ -156,3 +169,39 @@ h3 {
     margin: 32px 0 0 0;
     color: var(--emphasis);
 }
+
+.course-panel {
+    padding: 32px 72px 0;
+    text-align: center;
+    background-color: var(--background);
+}
+
+.course-panel h2 {
+    margin: 0 0 32px;
+}
+
+.course-card-row {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.course-card {
+    text-align: left;
+    background-color: white;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.course-card img {
+    width: 100%;
+}
+
+.card-text {
+    margin: 16px 16px 24px;
+}
+
+.card-text p {
+    margin: 0;
+}
+
