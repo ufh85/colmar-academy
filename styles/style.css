@@ -47,7 +47,18 @@ img {
     display: block;
 }
 
-/* Class rules */
+footer {
+    padding: 16px 19px 32px;
+    margin: 0 5px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Body classes */
 .header {
     height: 64px;
     display: flex;
@@ -234,3 +245,20 @@ img {
     margin: 0;
 }
 
+/* Footer classes */
+
+.copyright, footer .nav a {
+    font-size: .75rem
+}
+
+.legal-links {
+    display: inline-block;
+}
+
+footer .nav {
+    margin: 0;
+}
+
+footer .nav a {
+    color: var(--regular);
+}
