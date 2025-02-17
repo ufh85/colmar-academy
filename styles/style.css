@@ -6,7 +6,8 @@
 :root {
     --emphasis: #4A4A4A;
     --regular: #767676;
-    --background: #D8D8D8;
+    --main-background: #FFFFFF;
+    --secondary-background: #D8D8D8;
     --select-link: #0000EE;
 }
 
@@ -52,7 +53,7 @@ footer {
     margin: 0 5px;
     border-width: 1px 0 0 0;
     border-style: solid;
-    border-color: var(--background);
+    border-color: var(--secondary-background);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -106,7 +107,7 @@ footer {
 }
 
 .banner {
-    background-color: var(--background);
+    background-color: var(--secondary-background);
     padding: 32px 24px;
     display: flex;
     align-items: flex-start;
@@ -130,7 +131,7 @@ footer {
 .banner-button {
     padding: 8px 0;
     background-color: var(--emphasis);
-    color: var(--background);
+    color: var(--secondary-background);
     border: 1px solid var(--regular);
 }
 
@@ -146,7 +147,7 @@ footer {
     width: 60%;
     border-width: 0 1px 0 0;
     border-style: solid;
-    border-color: var(--background);  
+    border-color: var(--secondary-background);  
 }
 
 .select-no-border-box {
@@ -202,7 +203,7 @@ footer {
 }
 
 .selected {
-    background-color: var(--background);
+    background-color: var(--secondary-background);
 }
 
 .author {
@@ -213,7 +214,7 @@ footer {
 .course-panel {
     padding: 32px 72px 0;
     text-align: center;
-    background-color: var(--background);
+    background-color: var(--secondary-background);
     overflow: hidden;
 }
 
@@ -229,7 +230,7 @@ footer {
 
 .course-card {
     text-align: left;
-    background-color: white;
+    background-color: var(--main-background);
     flex-grow: 1;
     flex-basis: 0;
 }
@@ -327,6 +328,31 @@ footer .nav a {
     }
 
     .selected {
-        background-color: #FFF;
+        background-color: var(--main-background);;
+    }
+
+    /* course panel responsiveness */
+    .course-panel {
+        background-color: var(--main-background);
+        padding: 32px 16px 24px; 
+    }
+
+    .course-panel h2 {
+        margin: 0 0 16px;
+    }
+
+    .course-card {
+        background-color: var(--secondary-background);;
+    }
+
+    .course-card-row {
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+
+    .course-card img, .course-card p, 
+        .course-card h4{
+        display: none;
     }
 }
