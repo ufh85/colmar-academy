@@ -369,4 +369,14 @@ footer .nav a {
         div.no-mobile {
         display: none;
     }
+
+    /* footer responsiveness */
+    footer {
+        border-style: none;
+        padding: 16px 16px;
+    }
+
+    .legal-links {
+        display: none;
+    }
 }
