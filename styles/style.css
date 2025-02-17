@@ -79,6 +79,10 @@ footer {
     text-align: left;
 }
 
+.mobile-header {
+    display: none;
+}
+
 .colmar-bold {
     font-weight: 700;
     color: var(--emphasis);
@@ -265,7 +269,14 @@ footer .nav a {
 
 /* adjust content for smart phone screens */
 @media only screen and (max-width: 480px) {
-    .no-mobile {
+    .left-header, .right-header {
         display: none;
+    }
+
+    .mobile-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 }
