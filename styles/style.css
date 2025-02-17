@@ -355,4 +355,18 @@ footer .nav a {
         .course-card h4{
         display: none;
     }
+
+    /* thesis panel responsiveness */
+    .select-no-border-box {
+        width: 100%;
+    }
+
+    .select-left {
+        padding: 16px 0 24px;
+    }
+
+    .thesis-header, .thesis-paragraph, 
+        div.no-mobile {
+        display: none;
+    }
 }
