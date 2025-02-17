@@ -178,12 +178,13 @@ footer {
     align-items: center;
 }
 
-.select-item img{
+.select-item picture{
     width: 35%;
     height: auto;
 }
 
 .select-item-textbox {
+    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -309,6 +310,7 @@ footer .nav a {
 
     .select-right {
         width: 100%;
+        padding: 0 0 16px;
     }
 
     .select-item {
@@ -318,6 +320,10 @@ footer .nav a {
     .select-item-textbox {
         align-self: flex-start;
         margin-top: 24px;
+    }
+
+    .select-item picture {
+        width: 100%;
     }
 
     .selected {

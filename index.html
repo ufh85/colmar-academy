@@ -55,7 +55,11 @@
             <div class="select-right">
                 <!-- seperate select items with thumbnails and links -->
                 <div class="select-item">
-                    <img src="resources/images/information-orientation.jpg" alt="Overhead view of people walking on a path" />
+                    <picture>
+                        <source srcset="resources/images/information-orientation-mobile.jpg" media="(max-width: 480px)">
+                        <img src="resources/images/information-orientation.jpg" alt="Overhead view of people walking on a path" />
+                    </picture>
+                    
                     <div class="select-item-textbox">
                         <h3>Orientation date</h3>
                         <p class="select-item-paragraph">Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -63,7 +67,10 @@
                     </div>
                 </div>
                 <div class="select-item">
-                    <img src="resources/images/information-campus.jpg" alt="Campus reading room" />
+                    <picture>
+                        <source srcset="resources/images/information-campus-mobile.jpg" media="(max-width: 480px)">
+                        <img src="resources/images/information-campus.jpg" alt="Campus reading room" />
+                    </picture>
                     <div class="select-item-textbox">
                         <h3>Our campus</h3>
                         <p class="select-item-paragraph">Find which campus is close by you</p>
@@ -71,7 +78,10 @@
                     </div>
                 </div>
                 <div class="select-item selected">
-                    <img src="resources/images/information-guest-lecture.jpg" alt="Portrait of guest lecturer" />
+                    <picture>
+                        <source srcset="resources/images/information-guest-lecture-mobile.jpg" media="(max-width: 480px)">
+                        <img src="resources/images/information-guest-lecture.jpg" alt="Portrait of guest lecturer" />
+                    </picture>
                     <div class="select-item-textbox">
                         <h3>Our guest lecturer</h3>
                         <p class="select-item-paragraph">Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -158,14 +168,18 @@
             <div class="select-right extra-offset">
                 <!-- seperate select items with thumbnails and links -->
                 <div class="select-item selected">
-                    <img src="resources/images/thesis-fisma.jpg" alt="Overhead view of people walking on a path" />
+                    <picture>
+                        <img src="resources/images/thesis-fisma.jpg" alt="Overhead view of people walking on a path" />
+                    </picture>
                     <div class="select-item-textbox">
                         <h3>Fisma: Design and Prototype</h3>
                         <p class="select-item-paragraph">Designer showcase of new prototype product</p>
                     </div>
                 </div>
                 <div class="select-item">
-                    <img src="resources/images/thesis-now-and-then.jpg" alt="Campus reading room" />
+                    <picture>
+                        <img src="resources/images/thesis-now-and-then.jpg" alt="Campus reading room" />
+                    </picture>
                     <div class="select-item-textbox">
                         <h3>Now and then</h3>
                         <p class="select-item-paragraph">Research study about New York</p>
