@@ -109,6 +109,7 @@ footer {
     background-color: var(--background);
     padding: 32px 24px;
     display: flex;
+    align-items: flex-start;
 }
 
 .banner img {
@@ -120,6 +121,10 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin-left: 24px;
+}
+
+.banner-text {
+    margin-bottom: 24px;
 }
 
 .banner-button {
@@ -278,5 +283,19 @@ footer .nav a {
         justify-content: space-between;
         align-items: center;
         width: 100%;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .banner-panel {
+        margin-left: 0px;
+        margin: 16px 16px 32px;
     }
 }
