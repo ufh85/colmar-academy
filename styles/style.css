@@ -274,10 +274,8 @@ footer .nav a {
     color: var(--regular);
 }
 
-/* adjust content for smart phone screens */
-@media only screen and (max-width: 480px) {
-    
-    /* header responsiveness */
+/* adjust header for smaller screens */
+@media only screen and (max-width: 667px) {
     .left-header, .right-header {
         display: none;
     }
@@ -288,6 +286,10 @@ footer .nav a {
         align-items: center;
         width: 100%;
     }
+}
+
+/* adjust content for smart phone screens */
+@media only screen and (max-width: 480px) {
 
     /* banner responsiveness */
     .banner {
